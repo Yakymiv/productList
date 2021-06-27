@@ -1,0 +1,19 @@
+.ProductListPage {
+  .ProductListPageButtons {
+    width: 800px;
+    margin: 0px auto;
+    .ProductListPageButtonNew {
+      margin: 10px 0px 15px 0px;
+      button {
+        width: 100%;
+        border-radius: 0px;
+      }
+    }
+    .ProductListPageButtonSort {
+      margin-bottom: 5px;
+      button {
+        margin-right: 10px;
+      }
+    }
+  }
+}

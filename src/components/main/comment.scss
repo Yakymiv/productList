@@ -1,0 +1,20 @@
+.commentItem {
+  margin-top: 15px;
+  border-top: 1px dotted #bbb;
+  padding-bottom: 15px;
+  .commentDate {
+    padding: 15px 0px 0px 15px;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .commentText {
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px 0px 15px 15px;
+    margin: 0px;
+  }
+  button {
+    margin: 5px 15px 5px 15px;
+    padding: 5px 15px;
+  }
+}
