@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-const pathOfClient = '../product-list/build/';
+const pathOfClient = '../build/';
 
 app.use(express.static(path.resolve(pathOfClient)));
 app.use(express.json());
